@@ -1,0 +1,84 @@
+<html>
+<head>
+    
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+
+
+    </head>
+    
+<body>
+     <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+        <script src="js/wow.min.js"></script>
+          <script>
+              new WOW().init();
+              </script>
+    
+    <script>
+        var users = [{username:"Mohammed ahmed",password:"123456",permeation:"std"},{username:"Omar ali",password:"123",permeation:"iug"}];  
+ 
+        function sign_in(){
+            usrename = document.getElementById("fullname").value;
+            pass= document.getElementById("pass").value;
+           var str= usrename.split("@");
+            var chick=true;
+            for(var i=0;i<users.length;i++){
+               var u= users[i].username
+               var pe=users[i].permeation
+               var pa=users[i].password
+               
+            if(str[0]==u&&str[1]==pe&&pass==pa&&str[1]=='iug'){
+                alert("iug");
+                window.location.href='Teacher.html';
+                chick=true
+                
+                break;
+            }else if(str[0]==u&&str[1]==pe&&pass==pa&&str[1]=='std'){
+                alert("std");
+                chick=true;
+               window.location.href='Student.html';
+                break;
+            }else{
+                chick=false;
+            }
+            
+        }
+            if(chick==false){
+                alert("Check your username and password and(@iug or @std)")
+                
+            }
+        
+        }
+    
+    </script>
+ <div id="div1">
+        <p id="p2">MOODLE</p>
+        
+        <div class="wow fadeInLeftBig" id="div2l">
+            
+            <form action="" id="form" onsubmit="sign_in()">
+                <p id="p2">WELCOME</p>
+                <span>You can log in account here.</span><br><br><br>
+                <input  title="User Name" type="text" name="fullname" id="fullname" class="input"  placeholder="User Name"required>
+
+               
+
+                <input placeholder=" Password" id="pass" type="password" name="pass"  class="input"  title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br>
+                
+                <input class="btn btn-outline-info" type="button" onclick="sign_in()" value="Login">
+
+
+            </form>
+
+
+        </div>
+     <div id="div3l" class="wow fadeInRightBig card text-white bg-info mb-3">
+            <p id="p">NEW HERE?</p> 
+         <a href="index.html"> <button  class="btn btn-light" >Sign up</button></a>
+        </div>
+    </div>
+    </body>
+</html>

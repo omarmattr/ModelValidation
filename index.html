@@ -1,0 +1,111 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+</head>
+
+<body>
+    <script src="js/index.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+           function ss(){
+                    var a=document.getElementById("check").innerHTML
+                    a='  <div class="alert alert-danger" role="alert"> A simple danger alert—check it out!</div>'
+                    
+                }
+        
+        
+        
+        function guessSqe(){
+            //Math.floor(Math.random() * (max - min) ) + min;
+            //myArray.unshift('start');
+ //mypets = mypets.concat(mynewpets);
+     // total=total.toFixed(2)
+    // typeof(_array[i])
+    //24// var a=String(prompt("Enter String"))var oo="";for(i=0;i<=a.length;i++){if(i<4){oo +=a[i] }if(i>4){oo +="#";}}alert(oo); 
+           /* 
+            var array = ["Manish", "Chandan", "Piyush", 
+                     "Sunil", "Pankaj", "Piyush",  
+                     "Pankaj", "Tiny", "Chandan", 
+                     "Manish"]; 
+                       
+        var outputArray = []; 
+ 
+        var count = 0; 
+        var start = false; 
+          
+        for (j = 0; j < array.length; j++) { 
+            for (k = 0; k < outputArray.length; k++) { 
+                if ( array[j] == outputArray[k] ) { 
+                    start = true; 
+                } 
+            } 
+            count++; 
+            if (count == 1 && start == false) { 
+                outputArray.push(array[j]); 
+            } 
+            start = false; 
+            count = 0; 
+        } 
+        document.write(outputArray);*/
+       
+            var sum=8**2;
+         
+         alert(sum)
+          
+        }
+           
+            
+   
+
+    </script>
+
+    <div id="div1">
+        <p id="p2">MOODLE</p>
+
+        <div id="div3" class="wow fadeInLeftBig card text-white bg-info mb-3">
+            <p id="p">ALREADY HAVE<br> AN ACCOUNT?</p> <a href="log_in.html"><br> <button class="btn btn-light">login</button></a>
+        </div>
+        <div class="wow fadeInRightBig" id="div2">
+
+            <form action="" id="form" onsubmit="ch()" name="form">
+                <p id="p2">SIGN UP</p>
+                <span>We're happy you're here!</span><br><br><br>
+                <input title="First name, space and last name must be" type="text" name="fullname" class="input" pattern="[a-zA-Z]+[ ][a-zA-Z]+" placeholder="First name and last name" required>
+
+                <input placeholder="Enter your Email" type="email" name="email" class="input" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+
+                <input placeholder="Enter the Password" id="pass" type="password" name="pass" class="input" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+
+                <input placeholder="Enter your password again" id="repass" type="password" name="repass" class="input" oninput="check(this)" required><br>
+
+
+                <input type="radio" name="radio" value="std" id="r1" checked>
+                <label class="label" for="r1">Student</label>
+                <input type="radio" name="radio" value="iug" id="r2">
+                <label class="label" for="r2">Teacher</label><br>
+
+                <input class="btn btn-outline-info" type="submit" value="sign up">
+                <div id="check"></div>
+
+
+            </form>
+<button onclick="guessSqe()">kjefl</button>
+
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

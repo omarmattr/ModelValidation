@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+
+}
+#check{
+    margin-top: 10px;
+}
+body{
+
+    background-color: #e4e6e6;
+}
+.pte{
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+}
+
+#form {
+    background-color: #f8f9fa;
+    height: 100%;
+    padding: 10px;
+
+}
+
+#div1 {
+
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+#div2 {
+
+    box-shadow: 2px 5px 10px 1px;
+    text-align: center;
+    height: 90%;
+    float: right;
+    margin-left: -14%;
+    margin-right: 14%;
+    width: 43%;
+}
+#div2l{
+    
+    display: inline-block;
+       text-align: center;
+    height: 90%;
+    width: 43%;
+}
+#div3l{
+  
+    text-align: center;
+margin-left: -14%;
+    margin-right: 14%;
+    
+    display: inline-block;
+
+    height: 90%;
+float: right;
+
+    width: 29%;
+}
+#div3{
+    text-align: center;
+
+    
+    display: inline-block;
+
+    height: 90%;
+
+
+    width: 29%;
+}
+
+.input {
+
+    background-color: #ffffff;
+    padding: 5px;
+    font-size: 14px;
+    width: 290px;
+    border-radius: 0.25rem;
+    margin-bottom: 15px;
+    padding: 0.375rem 0.75rem;
+    border: 1px solid #ced4da;
+
+}
+
+.btn-light {
+    color: #000 !important;
+    background-color: #ffffffc2 !important;
+}
+
+
+p {
+    font-size: 15px;
+}
+
+#p {
+    margin-top: 60%;
+    color: white;
+    font-size: 40px;
+}
+
+#p2 {
+margin-top: 40px;
+    color: #17a2b8;
+    font-size: 40px;
+
+
+}
+@font-face{
+    font-family:'amitabold';
+    src:url=('../fonts');
+        
+}
+
+.btn-light {
+    color: #17a2b8 !important;
+    background-color: #ffffffde !important;
+    width: 115px;
+}
+.btn-outline-info {
+    margin-top: 30px;
+    width: 115px;
+}
+/*//////////////////////*/
+#divte {
+margin-top: -100px;
+    text-align: center;
+}
+
+#imgte {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+#titelte {
+    font-size: 30px;
+}
+#Hdivte{
+    width: 100%;
+   
+    height: 300px;
+}
+#formte{
+    margin: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#btnte{
+    margin-left: 23%;
+}.ds{
+    display: inline-block;
+    width: 15px;
+}
+#tablete{
+ width: 70%;
+    margin-left: 15%
+}
+#divst{
+
+     text-align: center;
+}
+#divst2{
+        width: 350px;
+    padding-left: 35;
+    padding-bottom: 20px;
+    padding-top: 20px;
+display: inline-block;
+}
+#btnst{
+margin-right: 35px;
+     margin-top: 20px;
+}
+.row{
+    width: 300px;
+    margin-bottom: 15px;
+}
+#alert{
+        margin-left: 25%;
+    width: 50%;
+}
+
